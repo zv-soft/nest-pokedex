@@ -22,6 +22,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Reconstruir DDBB con el Seed
+```
+http://localhost:3000/api/seed
+```
+
 ## Stack Usado
 * MongoDB
 * Nest
