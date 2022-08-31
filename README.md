@@ -22,9 +22,18 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir DDBB con el Seed
+5. Clonar el archivo __.ene.template__ y renombrar la copia __.env__
+
+6. Llenar las variables de entornos definidas en __.env__
+
+7. Reconstruir DDBB con el Seed
 ```
 http://localhost:3000/api/seed
+```
+
+6. Ejecutar la aplicacion en __DEV__
+```
+yarn start:dev
 ```
 
 ## Stack Usado
