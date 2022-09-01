@@ -36,6 +36,24 @@ http://localhost:3000/api/seed
 yarn start:dev
 ```
 
+# Production Build
+
+1. Crear el archivo __.env.prod__
+
+2. Llenar las variables de entorno de produccion
+
+3. Crear la nueva imagen:
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
+
+# Notas
+Heroku deplyed
+```
+git push heroku <master|main>
+```
+
 ## Stack Usado
 * MongoDB
 * Nest
